@@ -1,0 +1,21 @@
+Index: Controlers/Controler.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Controlers/Controler.py b/Controlers/Controler.py
+--- a/Controlers/Controler.py	
++++ b/Controlers/Controler.py	(date 1668240816122)
+@@ -139,11 +139,11 @@
+         self.logger.info(msg)
+     def Clear_msg_trigger(self):
+         self.lbMsg.clear()
+-
+     def close_application(self):
+         print("Close application ")
+         self.Update_msg("Exit application ")
+         sys.exit()
++    
+ 
+ def main():
+     print(" Controler_main running ")

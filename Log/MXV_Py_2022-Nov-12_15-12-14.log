@@ -1,0 +1,7 @@
+2022-11-12 15:12:14,501 - INFO - Start main controller
+2022-11-12 15:12:14,510 - INFO - initValue finish
+2022-11-12 15:12:14,709 - INFO - initUI finish
+2022-11-12 15:12:14,709 - INFO - initEvent finish
+2022-11-12 15:12:14,709 - INFO - init finish
+2022-11-12 15:12:18,201 - INFO - image was reed successfully
+2022-11-12 15:12:18,201 - ERROR - img read fail
