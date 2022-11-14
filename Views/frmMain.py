@@ -73,7 +73,7 @@ class Ui_MainWindow(object):
         self.lblDisplayImage.setTabletTracking(False)
         self.lblDisplayImage.setFrameShape(QtWidgets.QFrame.Box)
         self.lblDisplayImage.setObjectName("lblDisplayImage")
-        self.scrollArea.setWidget(self.scrollAreaWidgetContents)
+        self.scrollArea.setWidget(self.lblDisplayImage) # Tr10:12 AM 11/14/2022 Trung add for sisplahy image
         self.btnAutoman = QtWidgets.QPushButton(self.centralwidget)
         self.btnAutoman.setGeometry(QtCore.QRect(10, 210, 91, 71))
         font = QtGui.QFont()
